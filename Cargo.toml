@@ -6,3 +6,9 @@ members = [
     "xtask"
 ]
 resolver = "2"
+
+[profile.release]
+# opt-level = "z"
+
+[patch.crates-io]
+# pin-project-lite = { git = "https://github.com/EFanZh/pin-project-lite", branch = "inline-project-methods" }
